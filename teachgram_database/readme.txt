@@ -1,0 +1,1 @@
+Import or copy teachgram.sql file into phpmyadmin

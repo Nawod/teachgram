@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background: -webkit-linear-gradient(bottom, #00c6ff , #2f66ff);
+    padding: 3%;
+    }
+
+    .dashboard{
+        background: -webkit-linear-gradient(bottom, rgb(223, 239, 255), #00c6ff);
+        margin-top: -2.75%;
+        margin-bottom: 1%;
+        padding:2%;
+        padding-top: 1%;
+        height: 660px;
+        box-shadow: 1px -6px 14px 5px #2c2c30;
+    
+        }
+
+/*left side dashboard*/
+.left-dash{
+    text-align: center;   
+    margin-right: 1%;
+}
+.user-details img{
+    width:100px;
+    height:100px;
+    margin-top: 9%;
+    border-radius: 80px;
+    border: 5px solid #fff;
+}
+.user-details p{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+}
+.user-details{
+    background: -webkit-linear-gradient(bottom, #00c6ff , #2f66ff);
+    /*border-top-left-radius: 19% 49%;*/
+}
+.btnLogout{
+    float: center;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #fff;
+    color: #0062cc;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    margin-bottom: 15%;
+    }
+
+.chat-details{
+    background-color: aliceblue;
+    border-top-left-radius: 81% 17%;
+    border-top-right-radius: 81% 17%;
+    margin-top: -11%;
+    background-color: aliceblue;
+    height: 430px;
+}
+
+
+.chat-details img{
+    width:50px;
+    height:50px;
+    margin-top: 9%;
+    border-radius: 80px;
+    float: left;
+}
+
+#Get_Online_Users{
+    overflow : auto;
+    min-width: 200px;
+    height: 20%;
+    padding-left: 2px;
+}
+
+#Get_Other_Users{
+
+    overflow : auto;
+    min-width: 200px;
+    height: 20%;
+    padding-left: 2px;
+}
+#Main_Chat_Box{
+
+    border-radius: 1%;
+    height: 501px;
+    margin-top: 26px;
+    max-width: 692px;
+    min-width: 400px;
+    margin-left: 20px;
+    overflow: auto;
+}
+
+#get_chat_logs{
+    height: 83%;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+  }
+  #send_button,#send_button2{
+
+    margin-left: 658px;
+    margin-top: 2px;
+    background-color: white;
+    position: absolute;
+    height: 36px;
+    cursor: pointer;
+  
+  }
+  
+  div[id="get_chat_logs"]::-webkit-scrollbar{
+      width: 10px;
+  }
+   
+  div[id="get_chat_logs"]::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background : rgba(0,0,0,.1); 
+  }
+  
+  
+  div[id="Get_Online_Users"]::-webkit-scrollbar{
+      width: 10px;
+  }
+   
+  div[id="Get_Online_Users"]::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background : rgba(0,0,0,.1); 
+  }
+  div[id="Get_Other_Users"]::-webkit-scrollbar{
+    width: 10px;
+}
+ 
+div[id="Get_Other_Users"]::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background : rgba(0,0,0,.1); 
+}
+#text_area{
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 4px;
+    position: absolute;
+    border-radius: 3px;
+    resize: none;
+    font-size: 15px;
+    padding: 10px 40px 10px 10px;
+    height: 40px;
+  }
+  
+  textarea[id="text_area"]:focus{
+    background : fff;
+  }
+  
+  #btn_Send{
+  
+    position: absolute;
+    margin-top: -2000px;
+    margin-left: 550px;
+    height: 0px;
+    width: 0px;
+  }
+#chat-logo{
+    color: rgba(69, 162, 255, 0.93);
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#form_send_message{
+float: left;
+margin-left: 212px;
+}
+
+li[class="users"]{
+
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+ 
+  }
+ 
+  li[class="users"]:hover{
+ 
+     background-color: #d8d4d4;
+     cursor: hand;
+     margin-right: -15px;
+ 
+  }
+  #chat-logo{
+    color: rgba(69, 162, 255, 0.93);
+    font-weight: bold;
+    padding-left: 20px;
+}
+ 
+/*right side chat container*/
+.private-chat{
+    background-color: aliceblue;
+   /* border-top-right-radius: 10% 50%;*/
+    
+}
+
+.navi{
+    background: -webkit-linear-gradient(bottom, #00c6ff , #2f66ff);
+    padding-top: 2%;
+}
+.navi p{
+    color: #fff;
+    text-align: center;
+}
+.navi-active{
+    background-color: aliceblue;
+    padding-top: 2%;
+}
+.navi-active p{
+    text-align: center;
+}
